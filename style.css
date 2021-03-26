@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+    background: url('fon.jpg');
+    background-size: cover;
+    font-family: Bradley Hand, cursive;
+    overflow: hidden;
+    font-size: 16px;
+    color: hsl(29, 100%, 8%);
+}
+
+h3 {
+    position: relative;
+    left: 180px;
+    font-size: 30px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+}
+
+.submit {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #faad66 inset, 0 0 0 0 #b87223;
+    font-family: URW Chancery L, cursive;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(83, 38, 1);
+    position: relative;
+    top: 10px;
+    left: 400px;
+}
+
+.div_wrapper {
+    padding: 30px;
+    padding-top: 10px;
+    width: 550px; 
+    height: auto;
+    background-color:rgba(255, 255, 255, 0.75);
+    border-radius: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+.submit, .field {
+    float:right;
+    clear: both;
+}
+.field {
+    border-color: rgba(255, 214, 137, 0.952);
+    width: 280px; 
+    height: 33px; 
+    border-radius: 17px;
+    font-family: Bradley Hand, cursive;
+}
+label :hover {
+    box-shadow: 2px 2px 2px 1px rgba(253, 143, 0, 0.7);
+    border-color: rgb(212, 120, 0);
+    outline:0;
+}
+label :focus {
+    box-shadow: 2px 2px 2px 1px  rgba(253, 143, 0, 0.7);
+    border-color: rgb(212, 120, 0);
+    outline:0;
+}
+span {
+    background-color: #faad66;
+}
+span :hover {
+    background-color:  #eea057;
+}
+span :active {
+    background-color:  #eea057;
+}
+
+
+.error {
+    color: red;
+    float: right;
+    font-size: 12px; 
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin: 2px;
+}
+
+b {
+    align-self: center;
+}
+.errorList {
+    border: 2px solid rgb(235, 0, 0);
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: bold;
+    background-color:rgb(244, 0, 0,0.13);
+    padding: 20px 40px;
+    width: 465px;
+}
+.success_div {
+    background-color: rgba(0, 253, 0, 0.23);
+    border: 2px solid #3ac33a;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+
+}

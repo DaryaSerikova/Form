@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class=div_wrapper>
+    <div class=form_wrapper>
+        <h3><b> Регистрация: </b></h3>
+        <form onsubmit="onSubmit(); return false" name=form class=block>
+            <p><b>Имя:</b><label><input  type="text" class=field name="firstName" placeholder=" Иван"></label></p>
+            <p><b>Фамилия:</b> <label><input  type="text" class=field name="secondName" placeholder=" Иванов"></label></p>
+            <p><b>Email:</b><label><input  type="email" class=field name="email" placeholder=" Ivanov@gmail.com"></label></p>
+            <p><b>Пароль:</b><label><input  type="password" class=field name="password1"></label></p>
+            <p><b>Подтверждение пароля:</b><label><input  type="password" class=field name="password2"></label></p>
+            <p><b>Дата рождения:</b><label><input type="date" style="padding: 2px;" class=field name="birthday"></label></p>
+            <p> <label><span><input type="submit" class=submit value=" Отправить "></span></label></p>
+        </form>
+    </div>
+
+</section>
+<script src="main.js"></script>
+</body>
+</html>
